@@ -270,6 +270,37 @@ body {
   min-height: calc(100vh - var(--height-header));
   padding: 5rem 0;
 }
+.hero__content {
+  text-align: center;
+}
+
+.hero__title {
+  font-size: var(--fs-biggest);
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.hero__title::after {
+  position: absolute;
+  content: "";
+  background-color: var(--color-primary);
+  width: 10rem;
+  height: 0.5rem;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero__description {
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 968px) {
+  .hero__img {
+    width: 280px;
+    justify-self: center;
+  }
+}
 
 /* About */
 
