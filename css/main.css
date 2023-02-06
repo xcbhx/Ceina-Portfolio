@@ -40,7 +40,7 @@
 --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* css reset */
+/* CSS Reset */
 *, *::before, **::after {
   box-sizing: border-box;
 }
@@ -96,7 +96,7 @@ body {
   line-height: 1.2;
 }
 
-/* reuseabel css */
+/* Reuseabel CSS */
 .container {
   width: 90%;
   max-width: var(--width-container);
@@ -166,7 +166,7 @@ body {
   color: var(--color-white);
 }
 
-/* header */
+/* Header */
 .header {
   background-color: var(--color-bg-primary);
   position: fixed;
@@ -265,7 +265,7 @@ body {
   }
 }
 
-/* hero */
+/* Hero */
 .hero__wrapper {
   min-height: calc(100vh - var(--height-header));
   padding: 5rem 0;
@@ -435,3 +435,24 @@ body {
 }
 
 /* Contact */
+.contact__wrapper {
+  border-top: 1px solid var(--color-border);
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: var(--fs-xxl);
+  margin-bottom: 2rem;
+}
+
+.contact__content {
+  max-width: 45rem;
+  margin: auto;
+}
+
+.contact__description {
+  margin-bottom: 2rem;
+}
+
+/* Footer */
