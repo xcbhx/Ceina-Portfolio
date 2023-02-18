@@ -300,21 +300,6 @@ body {
   margin-bottom: 5rem;
 }
 
-.hero__info {
-  border-top: 1px solid var(--color-border);
-  padding-top: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 5rem;
-}
-
-
-.hero__info-title {
-  font-size: var(--fs-sm);
-  font-weight: var(--fw-regular);
-  color: var(--color-text);
-}
 
 @media screen and (max-width: 968px) {
   .hero__img {
@@ -576,10 +561,6 @@ body {
   .hero__title::after {
     transform: none;
     left: 0;
-  }
-
-  .hero__info {
-    justify-content: initial;
   }
 
   .hero__img {
